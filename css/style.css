@@ -6,20 +6,39 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
     color: rgb(12, 61, 45);
     margin: 20px;
-    height: 30px;
     text-align: center;
 }
 
 .ul-1 {
-    margin: 20px;
-    padding: 30px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ul-1 li {
-    height: 20px;
-    margin: 10px;
-    padding: 10px;
+    list-style-type: none;
+}
+
+.ul-1 a {
+    text-decoration: none;
+    color: #1a1616;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content p {
+    width: 500px;
+}
+
+.content p a {
+    font-size: 16px;
 }
